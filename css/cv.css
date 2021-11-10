@@ -131,38 +131,18 @@ body{
     padding: 1rem 0;
 }
 
-@media (max-width:629px) {
+/* media */
+
+@media (max-width:768px) {
     .hero .hero-content h1{
-        text-transform: uppercase;
-        font-size: 1.5rem;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-        color: white;
-        padding: 1rem 0;
-        margin: auto;
-        border: 1px solid white;
-        border-radius: 1px;
-        position: relative;
-        text-align: center;
-        margin-top: 13rem;
-        z-index: 2;
-    }
-
-    .hero .go-down{
-        margin: 14rem 0 0 0;
-    }
-
-
-    img#aboutpict {
-      display: none;
+        font-size: 1.2rem;
     }
   }
+  
+.hero .hero-content h5{
+    font-size: 0.8rem;
+}
 
-@media (max-width:991px) {
-    img#aboutpict {
-      display: none;
-    }
-  }
 
 @media (max-width:1200px) {
     img#aboutpict {
